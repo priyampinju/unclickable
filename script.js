@@ -12,6 +12,8 @@ yesBtn.addEventListener('click', () => {
     yesBtn.style = 'display:none'
     noBtn.style = 'display:none'
     refBtn.style = 'display:inline'
+    
+    confetti();
 })
 
 function reloadd() {
