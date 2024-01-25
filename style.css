@@ -14,8 +14,8 @@
     flex-direction: column;
     box-sizing: border-box;
     background-color: white;
-    height: 60vh;
-    width: 60vw;
+    height: 400px;
+    width: 600px;
     border-radius: 20px;
     box-shadow: 2px 10px 20px rgb(81, 79, 79);
 }
