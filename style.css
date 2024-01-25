@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: .0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 2px 10px 20px rgb(81, 79, 79);
+}
+
+body {
+    background-image: linear-gradient(#fccf31, #f55555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+    height: 30vh;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.btn-group {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #7d2ae7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:nth-child(1){
+    margin-left: -200px;
+}
+
+button:nth-child(2){
+    margin-right: -200px;
+}
+
+.yes-btn {
+    background-color: #7d2ae7;
+    color: white;
+}
+
+.no-btn {
+    color: #68676a;
+    background-color: white;
+}
+.refresh {
+    width: 150px;
+}
