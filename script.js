@@ -8,7 +8,7 @@ const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'Yeeeiii finally 🤩🎉';
+    question.innerHTML = 'Yeeeiii finally 🤩🎉 So when are we meeting?';
     yesBtn.style = 'display:none'
     noBtn.style = 'display:none'
     refBtn.style = 'display:inline'
